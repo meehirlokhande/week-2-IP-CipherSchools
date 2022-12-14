@@ -1,0 +1,46 @@
+* {
+    color: green;
+
+}
+
+p {
+    color: red !important;
+}
+
+p{
+    color: blueviolet;
+    font-size: 20px;
+    font-size: 30px;
+}
+/*this will be prefered*/
+
+ .para {
+    /*color: black; this will be prefered*/
+
+}
+#para{
+    /*color: purple;*/
+}
+
+header p{
+    color: royalblue !important;
+}
+
+/* Child Selectors */
+
+header >p {
+    background-color: cornsilk;
+}
+
+/* adjacent sibling selectors */
+
+header + p {
+    font-style: italic;
+}
+/* general sibling selectors */
+
+header ~p {
+    background-color: darkgoldenrod;
+    color: #fff;
+}
+

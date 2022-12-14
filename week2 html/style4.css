@@ -1,0 +1,62 @@
+/*universal selector*/
+*{
+    margin:0;
+    padding:0;
+    box-sizzing: border-box;
+}
+/* type/element/tag selector*/
+strong {
+    font: size 20px;
+}
+.Heading{
+    background-color: pink;
+}
+#me{
+    background-color: greenyellow;
+}
+.div p {
+    font-size: 50px;
+}
+
+/* combining Selector */
+.container {
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*type/element/tag selector*/
+p{
+    color:#2f8aa9;
+    background-color:hsla(90deg,60%,70%,0.6);
+    /* Absolute units */
+    width:70vw;
+    margin:0;
+    line-height: 1.2;
+}
+/*type/element/tag selector*/
+div {
+    transform: rotate(0deg);
+    width: calc(100%-20px);
+    height:'100vh';
+    background-image:url("https://images.pexels.com/photos/36762/scarlet-honeyeater-bird-red-feathers.jpg?auto=compress&cs=tinysrgb&w=400")
+}
+/*type/element/tag selector*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color:blue;
+}

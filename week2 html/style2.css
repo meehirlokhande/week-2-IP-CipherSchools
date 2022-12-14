@@ -1,0 +1,24 @@
+/*this is paragrph styling*/
+p{
+    color:blue;
+    background-color:bisque;
+    /* Absolute units */
+    width:70vw;
+    margin:0;
+    line-height: 1.2;
+}
+
+div {
+    transform: rotate(0deg);
+    width: calc(100%-20px);
+    height:'100vh';
+    background-image:url("https://images.pexels.com/photos/36762/scarlet-honeyeater-bird-red-feathers.jpg?auto=compress&cs=tinysrgb&w=400")
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color:blue;
+}
